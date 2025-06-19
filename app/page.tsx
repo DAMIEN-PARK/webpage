@@ -147,6 +147,13 @@ export default function Home() {
           type: 'text' as const
         },
         {
+          title: "자연어 처리 시각화",
+          content: "다양한 언어의 텍스트 분석 결과를 시각적으로 표현한 다이어그램입니다.",
+          type: 'image' as const,
+          src: '/images/figure.png',
+          alt: '자연어 처리 분석 다이어그램'
+        },
+        {
           title: "음성 인식 프로젝트",
           content: "어르신을 위한 법률 음성 서비스 개발을 위해 음성 인식 기술을 연구하고 있습니다. 노이즈 제거, 발음 인식, 문맥 이해 등 다양한 기술적 도전과제를 해결하고 있습니다.",
           type: 'text' as const
