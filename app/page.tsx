@@ -271,23 +271,27 @@ print(response.content)`
 
 ## 1. 데이터 수집 (Data Collection)
 - PC통신, 에버노트, 노션, 옵시디언
-- 법대 경험, 자격증, 기술 학습
+- 체계적인 정보 수집 및 지식 관리
 
 ## 2. 데이터 전처리 (Data Preprocessing)
 - 정보 체계화 및 구조화
 - 노이즈 제거 및 정규화
+- 자격증: 데이터아키텍처 준전문가, 빅데이터 준전문가, 빅데이터분석기사, SQLD
 
 ## 3. 데이터 분석 (Data Analysis)
 - 패턴 발견 및 상관관계 분석
 - 음성인식, 시각화, 법률 AI
+- 자연어 처리 및 텍스트 분석
 
 ## 4. 데이터 시각화 (Data Visualization)
 - 복잡한 정보의 직관적 표현
 - 사용자 친화적 인터페이스
+- 접근성을 고려한 시각화
 
 ## 5. 인사이트 도출 (Insight Generation)
 - 사회적 가치 창출
-- SaaS 서비스 개발`
+- SaaS 서비스 개발
+- 지속 가능한 성장 추구`
 
   const handleCardClick = (index: number) => {
     setSelectedStage(index)
