@@ -52,6 +52,12 @@ export default function Home() {
           title: "옵시디언과 지식 그래프",
           content: "2022년부터 옵시디언을 도입하여 지식 그래프 기반의 연결된 학습을 시작했습니다. 마크다운 기반의 노트 작성과 플러그인을 활용해 더욱 깊이 있는 지식 구조화를 실현하고 있습니다.",
           type: 'text' as const
+        },
+        {
+          title: "지식 그래프 시각화",
+          content: "옵시디언의 그래프 뷰를 통해 지식 간의 연결을 시각적으로 확인할 수 있습니다.",
+          type: 'video' as const,
+          src: '/videos/graph.mp4'
         }
       ],
       media: undefined,
@@ -77,6 +83,42 @@ export default function Home() {
         {
           title: "자격증 학습 과정",
           content: "다양한 자격증을 준비하며 체계적인 학습 방법을 익혔습니다. 정보를 분류하고, 우선순위를 정하고, 효율적으로 정리하는 과정에서 데이터 전처리의 핵심 원리를 배웠습니다.",
+          type: 'text' as const
+        },
+        {
+          title: "취득한 데이터 관련 자격증",
+          content: (
+            <div className="space-y-3">
+              <div className="flex items-center space-x-3 p-3 bg-white dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700">
+                <div className="w-8 h-8 bg-fractal-500 rounded-full flex items-center justify-center text-white text-sm font-bold">1</div>
+                <div>
+                  <h4 className="font-semibold text-slate-900 dark:text-slate-100">데이터아키텍처 준전문가 (DAsP)</h4>
+                  <p className="text-sm text-slate-600 dark:text-slate-400">데이터 아키텍처 설계 및 구축 능력 인증</p>
+                </div>
+              </div>
+              <div className="flex items-center space-x-3 p-3 bg-white dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700">
+                <div className="w-8 h-8 bg-data-500 rounded-full flex items-center justify-center text-white text-sm font-bold">2</div>
+                <div>
+                  <h4 className="font-semibold text-slate-900 dark:text-slate-100">빅데이터 준전문가 (BDsP)</h4>
+                  <p className="text-sm text-slate-600 dark:text-slate-400">빅데이터 분석 및 활용 능력 인증</p>
+                </div>
+              </div>
+              <div className="flex items-center space-x-3 p-3 bg-white dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700">
+                <div className="w-8 h-8 bg-fractal-500 rounded-full flex items-center justify-center text-white text-sm font-bold">3</div>
+                <div>
+                  <h4 className="font-semibold text-slate-900 dark:text-slate-100">빅데이터분석기사</h4>
+                  <p className="text-sm text-slate-600 dark:text-slate-400">국가기술자격증 - 빅데이터 분석 전문가</p>
+                </div>
+              </div>
+              <div className="flex items-center space-x-3 p-3 bg-white dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700">
+                <div className="w-8 h-8 bg-data-500 rounded-full flex items-center justify-center text-white text-sm font-bold">4</div>
+                <div>
+                  <h4 className="font-semibold text-slate-900 dark:text-slate-100">SQLD (SQL 개발자)</h4>
+                  <p className="text-sm text-slate-600 dark:text-slate-400">SQL 데이터베이스 개발 및 관리 능력 인증</p>
+                </div>
+              </div>
+            </div>
+          ),
           type: 'text' as const
         },
         {
