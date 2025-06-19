@@ -192,6 +192,13 @@ export default function Home() {
           type: 'text' as const
         },
         {
+          title: "대시보드 시각화 예시",
+          content: "실제 프로젝트에서 개발한 대시보드의 UI/UX 디자인 예시입니다.",
+          type: 'image' as const,
+          src: '/images/dash.png',
+          alt: '대시보드 디자인 예시'
+        },
+        {
           title: "인터랙티브 차트",
           content: "정적인 차트를 넘어서 사용자가 직접 조작할 수 있는 인터랙티브 차트를 개발하고 있습니다. 필터링, 줌, 드릴다운 등의 기능을 통해 더욱 깊이 있는 데이터 탐색이 가능하도록 했습니다.",
           type: 'text' as const
