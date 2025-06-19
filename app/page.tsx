@@ -159,6 +159,13 @@ export default function Home() {
           type: 'text' as const
         },
         {
+          title: "음성 인식 시스템 구조",
+          content: "음성 입력부터 텍스트 변환까지의 전체 프로세스를 시각화한 다이어그램입니다.",
+          type: 'image' as const,
+          src: '/images/clipingtts.png',
+          alt: '음성 인식 시스템 구조도'
+        },
+        {
           title: "법률 데이터 분석",
           content: "법제처 OpenAPI를 활용하여 법률 데이터를 분석하고 있습니다. 복잡한 법령 정보를 사용자가 이해하기 쉽도록 구조화하고, 관련 법령 간의 연결성을 파악하는 작업을 진행하고 있습니다.",
           type: 'text' as const
