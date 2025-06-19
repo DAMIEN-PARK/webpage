@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-gradient-to-br from-slate-50 to-blue-50 dark:from-slate-900 dark:to-slate-800;
+    @apply text-slate-900 dark:text-slate-100;
+  }
+}
+
+@layer components {
+  .fractal-card {
+    @apply bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm;
+    @apply border border-slate-200/50 dark:border-slate-700/50;
+    @apply rounded-2xl shadow-lg hover:shadow-xl;
+    @apply transition-all duration-300 ease-out;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-fractal-600 to-data-600;
+    @apply bg-clip-text text-transparent;
+  }
+  
+  .code-block {
+    @apply bg-slate-900 text-green-400 p-4 rounded-lg;
+    @apply font-mono text-sm overflow-x-auto;
+    @apply border border-slate-700;
+  }
+  
+  .section-padding {
+    @apply py-16 px-4 sm:px-6 lg:px-8;
+  }
+} 
