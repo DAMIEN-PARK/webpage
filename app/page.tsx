@@ -150,7 +150,7 @@ export default function Home() {
           title: "자연어 처리 시각화",
           content: "다양한 언어의 텍스트 분석 결과를 시각적으로 표현한 다이어그램입니다.",
           type: 'image' as const,
-          src: '/images/figure.png',
+          src: '/images/Figure.png',
           alt: '자연어 처리 분석 다이어그램'
         },
         {
